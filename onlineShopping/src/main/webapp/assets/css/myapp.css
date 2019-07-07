@@ -1,0 +1,282 @@
+body{
+	
+	background-size: contain;
+	background-position: center;
+}
+body::after {
+  content: "";
+  background: url(https://assets.vogue.com/photos/5c73299ff5661d2d5252d52b/16:9/pass/GettyImages-1127178481.jpg);/*url(https://tse2.mm.bing.net/th?id=OIP.w4CU4zKi8BIO-Lxq0aDHgAHaF9&pid=15.1&P=0&w=219&h=177)*/
+  opacity: 0.5;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: fixed;
+  z-index: -1;   
+  background-size: cover;
+}
+
+.img-thumbnail{
+	width: 50px;
+	height: 50px;
+}
+.mainimg{
+	width: 100%;
+	height: 600px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+h1:hover{
+	color: #EE63FD;
+	cursor: pointer;
+}
+h1 .fas:hover{
+	color: #EE63FD;
+}
+#search:hover{
+	color: white;
+	cursor: pointer;
+}
+.navbar-dark .navbar-nav .nav-link{
+	color: #212529;
+}
+.navbar-dark .navbar-nav .nav-link:hover{
+	color: white;
+}
+.navbar-dark .navbar-toggler{
+	color: #212529;
+	border-color: #212529;
+}
+.color{
+	/*background-color: #99f138;*/
+	background: url(pinkgradbackground.jpg);
+	background-size: cover;
+}
+i{
+	padding-left: 10px;
+	padding-right: 5px;
+}
+.nav-item{
+	margin-right: 40px;
+}
+.logo{
+	font-family: josefin sans;
+	font-weight: 700;
+	display: inline;
+
+}
+.logo:hover{
+	color: black;
+	}
+.new{
+	display: inline;
+	color: black;
+	font-family: pacifico;
+	margin-right: 40px;
+}
+.new:hover{
+	color: white;
+}
+.img{
+	width: 80px;
+	height: 55px;
+	margin-right: 10px;
+	border-radius: 20%;
+	opacity: 0.7;
+}
+.img:hover{
+	opacity: 1.0;
+}
+.nav-link{
+	padding-left: 60px;
+}
+.secimg{
+	width: 90%;
+	height: 250px;
+	margin: 10px 5% 0 5%;
+	
+}
+h1{
+	margin: 50px 5%;
+	color: #F17CFE;
+}
+footer{
+	margin: 20px 0;
+	padding: 20px;
+	color: black;
+	background-color: rgba(250,250,250,0.8);
+}
+h4{
+	font-family: ubuntu;
+	display: inline-block;
+	color: #F17CFE;
+}
+footer p{
+	font-family: goudy bookletter;
+	color: #F17CFE;
+}
+h2{
+	color: #F17CFE;
+	text-align: center;
+	font-family: ubuntu;;
+	margin-bottom: 30px;
+}
+.volunteers{
+	margin: 30px 0 50px 0;
+}
+a:hover{
+	color: #AA29B8;
+	text-decoration: none;
+}
+a{
+	color: #F17CFE;
+}
+
+a .fab{
+	color: #F17CFE;
+	font-size: 30px;
+}
+
+a .fab:hover{
+	color: #AA29B8;
+	text-decoration: none;
+}
+
+img{
+	height: 400px;
+}
+
+.d-block{
+	height: 500px;
+}
+#kids{
+	height: 320px;
+}
+.btn-primary{
+	background-color: #F17CFE;
+	border: 1px solid #F17CFE;
+}
+
+.btn-primary:hover{
+	background-color: #AA29B8;
+	border: 1px solid #AA29B8;
+}
+
+.ribbon {
+ font-size: 16px !important;
+ 
+ width: 90%;
+    
+ position: relative;
+ background: url(pinkgradbackground.jpg);
+ background-size: cover;
+ text-align: center;
+ padding: 1em 1em; 
+ margin: 0em auto 2em; 
+}
+.ribbon:before, .ribbon:after {
+ content: "";
+ position: absolute;
+ display: block;
+ bottom: -1em;
+ border: 1.5em solid pink;
+ z-index: -1;
+}
+.ribbon:before {
+ left: -2em;
+ border-right-width: 1.5em;
+ border-left-color: transparent;
+}
+.ribbon:after {
+ right: -2em;
+ border-left-width: 1.5em;
+ border-right-color: transparent;
+}
+.ribbon .ribbon-content:before, .ribbon .ribbon-content:after {
+ content: "";
+ position: absolute;
+ display: block;
+ border-style: solid;
+ border-color: #ffffff transparent transparent transparent;
+ bottom: -1em;
+}
+.ribbon .ribbon-content:before {
+ left: 0;
+ border-width: 1em 0 0 1em;
+}
+.ribbon .ribbon-content:after {
+ right: 0;
+ border-width: 1em 1em 0 0;
+}
+#ribcon{
+	color: white;
+}
+#ribcon:hover{
+	color: #AA29B8;
+}
+
+.ribbon-middle{
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 20px;
+}
+
+.dropbt {
+    background-color: #ffffff00;
+    color: white;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: rgba(0,0,0,0.7);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-menu a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+}
+
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.down-arrow {
+	display: inline-block;
+	position: relative;
+	background: darkcyan;
+	padding: 2% 10%;
+	width: 100%;
+	text-align: center;
+}
+.down-arrow:after {
+	content: '';
+	display: block;  
+	position: absolute;
+	left: 0;
+	top: 100%;
+	width: 0;
+	height: 0;
+	border-top: 20px solid darkcyan;
+	border-right: 100px solid transparent;
+	border-bottom: 0 solid transparent;
+	border-left: 100px solid transparent;
+	margin-left: 40%;
+}
+
